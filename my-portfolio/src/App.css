@@ -1,0 +1,43 @@
+.header-content {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height:70px;
+  max-width: 960px;
+  margin-left:100px;
+  margin-top:10px;
+  gap: 20px; /* Adds 20px gap between flex items */
+}
+.skill{
+  margin-left:-60px;
+}
+.logo{
+  margin-left:0px;
+  height:100px;
+}
+.list-item{
+  display:flex;
+  flex-direction:row;
+  font-size: 25px;
+  font-weight: bold;
+  color:rgb(32, 161, 146);
+  gap:50px;
+}
+nav li{
+ 
+  list-style-type: none;
+  margin-top: 5px;
+}
+nav li:hover{
+  color:rgb(70, 23, 146);
+  text-decoration: underline;
+  font-size: 25px;
+  font-weight: 25px;
+
+}
+
+.header nav {
+  display: flex; 
+  gap: 20px; 
+}
+
